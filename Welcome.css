@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/ducati-diavel-v4-sports-bikes-muscle-cruiser-5k-8k-2023-3840x2160-9002.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('images/ducati-diavel-v4-sports-bikes-muscle-cruiser-5k-8k-2023-3840x2160-9002.jpg');
   background-position: 50% 50%;
 }
 
@@ -368,17 +368,12 @@
 }
 
 .u-section-4 .u-layout-wrap-1 {
-  width: 1140px;
-  margin: 60px auto;
+  margin-top: 61px;
+  margin-bottom: -8px;
 }
 
 .u-section-4 .u-layout-cell-1 {
-  min-height: 680px;
-  --animation-custom_in-translate_x: -300px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
+  min-height: 757px;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -386,18 +381,13 @@
 }
 
 .u-section-4 .u-text-1 {
-  margin-top: 0;
+  margin-top: 70px;
   margin-bottom: 0;
-  --animation-custom_in-translate_x: 300px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
   line-height: 1.1;
 }
 
 .u-section-4 .u-list-1 {
-  margin-top: 20px;
+  margin-top: 22px;
   margin-bottom: 0;
 }
 
@@ -510,11 +500,6 @@
 
 .u-section-4 .u-layout-cell-2 {
   min-height: 680px;
-  --animation-custom_in-translate_x: 50px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 180deg;
-  --animation-custom_in-scale: 0.3;
 }
 
 .u-section-4 .u-container-layout-6 {
@@ -555,12 +540,21 @@
     min-height: 549px;
   }
 
-  .u-section-4 .u-layout-wrap-1 {
-    width: 940px;
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 624px;
+    --animation-custom_in-translate_x: -300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 
-  .u-section-4 .u-layout-cell-1 {
-    min-height: 561px;
+  .u-section-4 .u-text-1 {
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 
   .u-section-4 .u-repeater-1 {
@@ -600,6 +594,11 @@
   }
 
   .u-section-4 .u-layout-cell-2 {
+    --animation-custom_in-translate_x: 50px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 180deg;
+    --animation-custom_in-scale: 0.3;
     min-height: 561px;
   }
 
@@ -611,10 +610,6 @@
 @media (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
     min-height: 88px;
-  }
-
-  .u-section-4 .u-layout-wrap-1 {
-    width: 720px;
   }
 
   .u-section-4 .u-layout-cell-1 {
@@ -638,10 +633,6 @@
 @media (max-width: 767px) {
   .u-section-4 .u-sheet-1 {
     min-height: 188px;
-  }
-
-  .u-section-4 .u-layout-wrap-1 {
-    width: 540px;
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -678,10 +669,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-4 .u-layout-wrap-1 {
-    width: 340px;
-  }
-
   .u-section-4 .u-text-1 {
     width: auto;
     margin-left: 0;
